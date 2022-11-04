@@ -35,7 +35,7 @@ body{
 	}
 	@media(max-width:767px){
 		[class*="container"]{
-			max-width: none;
+			max-width: min-content;
 			padding: 0 15px;
 		}
 	}
@@ -274,9 +274,6 @@ button.button-transferet {
 .footer-flex, .subscribe, .plan-flex, .plan, .about {
 	justify-content: center;
 	text-align: center;
-}
-.footer-flex{
-		margin: -25px;
 }
 .first-foto-pk{
 	display: none;
