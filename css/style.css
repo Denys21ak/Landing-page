@@ -241,6 +241,7 @@ button.button-transferet {
 }
 .item {
 	margin-bottom: 30px;
+	width: 358px;
 }
 .item:last-child {
 	margin-bottom: -80px;
@@ -250,10 +251,22 @@ button.button-transferet {
 	max-width: 358px;
 }
 .input {
+	margin-top: 20px;
 	margin-bottom: 11px;
 }
+.secondman{
+	display: none;
 }
-
+}
+@media screen and (min-width: 600px) {
+	.hereIsMyClass {
+	  width: 30%;
+	  float: right;
+	}
+	.secondman2{
+		display: none;
+	}
+ }
 .about-button{
 	display: flex;
 	flex-wrap: nowrap;
