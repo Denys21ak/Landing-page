@@ -233,6 +233,9 @@ body{
 .header-flex{
 	justify-content: center;
 }
+.header-logo{
+	margin-bottom: -26px;
+}
 .button-orange {
 	display: none;
 }
