@@ -116,6 +116,12 @@ body{
 		.nav-li:hover {
 			background-color: #CFD8DC;
 		}
+		.nav-block{
+			min-width: 300px;
+		}
+		.nav:hover{
+			text-decoration: underline;
+		}
 		#menu__toggle:checked ~ .menu__btn > span {
 			transform: rotate(45deg);
 		}
