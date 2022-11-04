@@ -228,6 +228,7 @@ body{
 .plan-title {
 	font-size: 56px;
 	line-height: 65px;
+	margin-top: -47px;
 }
 .header-flex{
 	justify-content: center;
@@ -249,6 +250,9 @@ button.button-transferet {
 	margin-bottom: 30px;
 	width: 358px;
 }
+.item:first-child{
+	margin-top: -67px;
+}
 .item:last-child {
 	margin-bottom: -80px;
 }
@@ -263,12 +267,23 @@ button.button-transferet {
 .secondman{
 	display: none;
 }
-.footer-flex, .subscribe, .plan-flex {
+.subscribe-title{
+	margin-top: -30px;
+	font-size: 40px;
+}
+.footer-flex, .subscribe, .plan-flex, .plan, .about {
 	justify-content: center;
 	text-align: center;
 }
+.footer-flex{
+		margin: -25px;
+}
 .first-foto-pk{
 	display: none;
+}
+.footer{
+		padding: 20px 0;
+
 }
 }
 @media screen and (min-width: 600px) {
@@ -326,7 +341,6 @@ button.button-transferet {
 	box-sizing: border-box;
 	border-radius: 10px;
 	padding-left: 14px;
-	margin-right: 39px;
 }
 .input::placeholder, .input{
 	font-weight: bold;
