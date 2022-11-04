@@ -12,7 +12,10 @@
 /* a, span{
 	display: inline-block;
 } */
-
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+img{
+	width: 100%;
+}
 body{
 	font-family: 'DM Sans', sans-serif;
 }
@@ -23,11 +26,13 @@ body{
 .header, .footer{
 	background: rgba(255, 113, 67, 0.27);
 	padding: 38px 0 48px;
+	margin-bottom: -31px;
 }
 .header-flex, .footer-flex, .about, .subscribe, .plan-flex{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 /* скрываем чекбокс */
 #menu__toggle {
@@ -178,6 +183,7 @@ body{
 	color: #19191B;
 	max-width: 467px;
 	margin-bottom: 30px;
+	margin-top: 0px;
 }
 .about-text{
 	font-size: 20px;
@@ -187,6 +193,40 @@ body{
 	max-width: 464px;
 	margin-bottom: 50px;
 }
+
+
+
+
+@media (max-width:960px) { 
+.about-title{
+	font-size: 55px;
+   line-height: 65px;
+	margin-top: -40px;
+}
+.plan-title {
+	font-size: 56px;
+	line-height: 65px;
+}
+.header-flex{
+	justify-content: center;
+}
+.button-orange {
+	display: none;
+}
+.menu__btn {
+	top: 44px;
+	border-radius: 5px;
+}
+.about-text {
+	max-width: 295px;
+}
+.button-transferet {
+	margin-left: 0;
+}
+}
+
+
+
 .button-violet{
 	background: #5454D4;
 }
