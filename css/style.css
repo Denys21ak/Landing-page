@@ -263,6 +263,10 @@ button.button-transferet {
 .secondman{
 	display: none;
 }
+.header-flex, .footer-flex, .about, .subscribe, .plan-flex {
+	justify-content: center;
+	text-align: center;
+}
 }
 @media screen and (min-width: 600px) {
 	.hereIsMyClass {
