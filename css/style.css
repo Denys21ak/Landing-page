@@ -31,7 +31,7 @@ body{
 	}
 	@media(max-width:990px){
 		[class*="container"]{
-			max-width: 750px;		}
+			max-width: 526px;		}
 	}
 	@media(max-width:767px){
 		[class*="container"]{
@@ -267,9 +267,7 @@ button.button-transferet {
 	margin-top: 20px;
 	margin-bottom: 11px;
 }
-.secondman{
-	display: none;
-}
+
 .subscribe-title{
 	margin-top: -30px;
 	font-size: 40px;
@@ -278,15 +276,38 @@ button.button-transferet {
 	justify-content: center;
 	text-align: center;
 }
-.first-foto-pk{
-	display: none;
-}
-.footer{
-		padding: 20px 0;
 
+footer.footer{
+		padding: 20px 0;
 }
 }
-@media screen and (min-width: 600px) {
+@media (min-width: 773px) and (max-width: 1199.98px) {
+	h2.plan-title{
+		margin-bottom: 25px;
+		margin-top: -34px;
+  }
+  .item {
+	max-width: 255px;
+	margin-bottom: 25px;
+}
+button.button-item {
+width: 255px;
+}
+footer.footer{
+	padding: 36px 0;
+	text-align: center;
+}
+.nav-li{
+	display: contents;
+}
+.nav-link {
+	padding: 10px;
+}
+}
+/* [class*="container"] {
+	max-width: 530px;
+} */
+@media screen and (min-width: 989px) {
 	.hereIsMyClass {
 	  width: 30%;
 	  float: right;
@@ -298,6 +319,15 @@ button.button-transferet {
 	display: none;
 	}
  }
+@media screen and (max-width: 989px) {
+	.secondman{
+		display: none;
+	}
+	.first-foto-pk{
+		display: none;
+	}
+}
+
 .about-button{
 	display: flex;
 	flex-wrap: nowrap;
