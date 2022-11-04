@@ -19,10 +19,26 @@ img{
 body{
 	font-family: 'DM Sans', sans-serif;
 }
-.container{
-	max-width: 1070px;
+
+[class*="container"]{
+	max-width: 1170px;
 	margin: 0 auto;
-}
+	}
+	@media(max-width:1200px){
+		[class*="container"]{
+			max-width: 970px;
+			}
+	}
+	@media(max-width:990px){
+		[class*="container"]{
+			max-width: 750px;		}
+	}
+	@media(max-width:767px){
+		[class*="container"]{
+			max-width: none;
+			padding: 0 15px;
+		}
+	}
 .header, .footer{
 	background: rgba(255, 113, 67, 0.27);
 	padding: 38px 0 48px;
@@ -218,14 +234,30 @@ body{
 	border-radius: 5px;
 }
 .about-text {
-	max-width: 295px;
+	max-width: 368px;
 }
-.button-transferet {
-	margin-left: 0;
+button.button-transferet {
+	margin-left: 10;
+}
+.item {
+	margin-bottom: 30px;
+}
+.item:last-child {
+	margin-bottom: -80px;
+}
+.about-button{
+	justify-content: center;
+	max-width: 400px;
+}
+.input {
+	margin-bottom: 11px;
 }
 }
 
-
+.about-button{
+	display: flex;
+	flex-wrap: nowrap;
+}
 
 .button-violet{
 	background: #5454D4;
